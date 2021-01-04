@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* NAVBAR */
+.navbar-light .navbar-nav .nav-link{
+  color:white;
+  font-size: 1.3rem;
+}
+.navbar-light .navbar-brand{
+  font-size: 2rem;
+  font-style: italic;
+}
+
+
+
+
+/* HOME */
+.thome{
+  background-image: url("./images/getty_837392998_411522.jpg");
+  background-size:cover;
+  height:700px;
+  background-position: center center;
+}
+.thome .container-fluid{
+height:100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: rgba(255, 247, 247, 0.319);
+}
+
+.thome .container-fluid h1{
+  font-size:4rem;
+  text-shadow: 1px 1px;
+  text-align: center;
+}
+
+.thome .container-fluid a{
+  width: 10rem;
+}
+
+
+/* SERVICE */
+.tser{
+
+  margin:50px 0px
+}
+.tser h1{
+  font-style: italic;
+  text-align: center;
+  margin-bottom:40px;
+}
+
+.tser .container .card{
+  text-align: center;
+  border:none
+}
+
+
+/* ABOUT */
+.tabout{
+
+  background-color: aliceblue;
+}
+.tabout h1{
+  text-align: center;
+  font-style: italic;
+  padding-top: 40px;
+}
+.tabout .container{
+  
+  display:flex;
+  flex-direction: column;
+}
+
+.tabout .container ul{
+  margin: 50px 0px;
+  list-style: none;
+  display:flex;
+}
+.tabout .container ul li{
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.tabout .container ul img{
+width:100px;
+}
+
+/* CONTACT */
+
+
+
+.tcon {
+padding: 50px 0px;
+background-color:rgb(74, 74, 74)
+}
+@media (max-width: 625.98px){
+  .thome .container-fluid h1{
+    font-size:2.5rem;
+  }
+
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
